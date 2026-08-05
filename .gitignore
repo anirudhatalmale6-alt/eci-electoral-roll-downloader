@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+env/
+
+# Runtime output
+downloads/
+*.log
+*.csv
+*.crdownload
+*.tmp
+
+# OS
+.DS_Store
+Thumbs.db

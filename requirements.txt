@@ -1,0 +1,9 @@
+# ECI Electoral Roll Downloader — Python 3.11+
+#
+# Install with:  pip install -r requirements.txt
+
+selenium>=4.20,<5           # browser automation (Selenium 4)
+webdriver-manager>=4.0      # auto-downloads the matching chromedriver
+pymupdf>=1.24               # fast, reliable PDF validation (imported as "fitz")
+pypdf>=4.2                  # fallback PDF validator (used if PyMuPDF missing)
+pandas>=2.0                 # CSV progress report
